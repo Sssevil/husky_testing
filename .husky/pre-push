@@ -1,5 +1,3 @@
 echo "⏳Running pre-push hook..."
 
 npm run lint && npm run build
-
-echo "✅ Проверки пройдены. Выполняем push..."

@@ -2,14 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Test } from './Test'
+import { Test } from './Test.tsx'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <h1 className='hjjhjh'></h1>
+        <h1>dfdfdfdfd</h1>
         <Test/>
         <a
           href='https://vite.dev'
