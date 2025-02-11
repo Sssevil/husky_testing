@@ -15,7 +15,13 @@
       "eslint --fix"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "node -e \"require('chalk').stderr.red('Husky: Commit rejected due to ESLint errors')\" && eslint . --color"
+    }
+  },
   "dependencies": {
+    "chalk": "^5.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
