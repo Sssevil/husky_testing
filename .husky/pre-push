@@ -1,0 +1,6 @@
+echo "Running pre-push hook..."
+
+# Запускаем eslint
+npm run lint
+
+echo "✅ Проверки пройдены. Выполняем push..."
