@@ -40,8 +40,8 @@ export default tseslint.config(
           message: "Убери - console.log()",
         },
       ],
-      "jsx-quotes": ["error", "prefer-single"],
-      'react/jsx-indent': ['error', 2], // Отступ 2 пробела
+      "jsx-quotes": ["warn", "prefer-single"],
+      'react/jsx-indent': ['warn', 2], // Отступ 2 пробела
       'react/jsx-indent-props': ['error', 2], // Отступ 2 пробела для атрибутов
       "react/jsx-max-props-per-line": ["warn", { "maximum": 1, "when":"always" }], 
       "react/jsx-first-prop-new-line": ["warn", "multiline"],
