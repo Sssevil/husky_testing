@@ -8,7 +8,7 @@ export const NavBar = () => {
           <Link to={'/'}>go to home</Link>
         </li>
         <li>
-          <Link to={'/aboutUs'}>go to home</Link>
+          <Link to={'/aboutUs'}>AboutUs</Link>
         </li>
       </ul>
     </nav>
